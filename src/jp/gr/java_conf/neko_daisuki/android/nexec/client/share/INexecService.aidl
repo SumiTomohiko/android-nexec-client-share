@@ -11,7 +11,6 @@ interface INexecService {
     oneway void connect(in SessionId sessionId, in INexecCallback callback);
     oneway void disconnect(in SessionId sessionId);
     oneway void quit(in SessionId sessionId);
-    oneway void cancel(in SessionId sessionId);
 
     oneway void writeStdin(in SessionId sessionId, int b);
 
