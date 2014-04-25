@@ -15,4 +15,7 @@ interface INexecService {
     oneway void writeStdin(in SessionId sessionId, int b);
 
     Bitmap xDraw(in SessionId sessionId);
+    oneway void xMotionNotify(in SessionId sessionId, int x, int y);
+    oneway void xLeftButtonPress(in SessionId sessionId);
+    oneway void xLeftButtonRelease(in SessionId sessionId);
 }
