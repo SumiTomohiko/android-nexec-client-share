@@ -18,4 +18,6 @@ interface INexecService {
     oneway void xMotionNotify(in SessionId sessionId, int x, int y);
     oneway void xLeftButtonPress(in SessionId sessionId);
     oneway void xLeftButtonRelease(in SessionId sessionId);
+    oneway void xRightButtonPress(in SessionId sessionId);
+    oneway void xRightButtonRelease(in SessionId sessionId);
 }
